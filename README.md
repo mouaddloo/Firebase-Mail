@@ -22,15 +22,11 @@ To use the project,you need to install
 command line,to make ecmascript6 from java script
  
 ```
-#!command
-
 npm run babel
 ```
 command line,to hosting and testing site in the internet
 
 ```
-#!command
-
 firebase deploy
 ```
 
