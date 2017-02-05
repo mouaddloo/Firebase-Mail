@@ -48,9 +48,6 @@ NB : this project built with 0% of PHP And 0% of JQUERY(*I used jquery of bootst
 ### firebase include ###
 
 ```
-#!HTML
-
-
 <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
 <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-auth.js"></script>
@@ -61,8 +58,6 @@ NB : this project built with 0% of PHP And 0% of JQUERY(*I used jquery of bootst
 
 
 ```
-#!javascript
-
 var config = {
           apiKey: "AIzaSyA1c-aXzEQ67SFORIW8rK0bTrNgcNraXqQ",
           authDomain: "message-6c6ab.firebaseapp.com",
@@ -76,8 +71,6 @@ var config = {
 
 
 ```
-#!javascript
-
 FB.send = function (from) : for send a mail 
 FB.resend = function (from) : for update a mail
 FB.inbox = function (usermail) : for show received message 
